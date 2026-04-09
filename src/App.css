@@ -1,0 +1,74 @@
+.fa-circle {
+    font-size: 12px;
+}
+
+.service-card {
+    transition: 0.3s;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    background: #fff;
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.icon-box {
+    width: 70px;
+    height: 70px;
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 22px;
+}
+
+.explore {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.portfolio-card {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.portfolio-card img {
+    transition: 0.3s;
+}
+
+.portfolio-card:hover img {
+    transform: scale(1.05);
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+}
+
+.active-tab {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.tag-pill {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.tag-pill:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-5px);
+    border-color: #000;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tag-pill i {
+    transition: all 0.3s ease;
+}
+
+.tag-pill:hover i {
+    color: #fff;
+}
